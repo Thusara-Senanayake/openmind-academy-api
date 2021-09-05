@@ -1,0 +1,26 @@
+###
+GET http://localhost:3001/courses
+### 
+GET http://localhost:3001/courses/5
+
+###
+POST http://localhost:3001/courses
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name":"IT"
+}
+
+###
+PUT  http://localhost:3001/courses/4
+Content-Type: application/json
+
+{
+  "id":4,
+  "name":"A"
+ 
+}
+
+### 
+DELETE  http://localhost:3001/courses/4
